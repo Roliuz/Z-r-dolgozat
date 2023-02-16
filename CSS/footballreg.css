@@ -1,0 +1,88 @@
+*{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 0; 
+    padding: 0;
+    box-sizing: border-box;
+    outline: none; 
+    border: none;
+    text-decoration: none;
+}
+
+.container{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: wheat;
+    padding-bottom: 80px;
+}
+
+.container .tartalom{
+    width: 700px;
+    text-align: center;
+}
+
+.container .tartalom h3{
+    font-size: 38px;
+    text-transform:uppercase;
+}
+
+.container .tartalom p{
+    font-size: 20px;
+    padding:10px 0;
+}
+
+.container .tartalom p span{
+    color: blue;
+}
+
+.container .tartalom .register{
+    display: inline-block;
+    margin-top: 10px;
+    background-color: black;
+    color:whitesmoke;
+    padding: 10px 35px;
+    font-size:20px;
+}
+
+.container .tartalom .register:hover{
+    background-color:dimgrey;
+}
+
+
+
+.container .tartalom .mezok form{
+    text-align: center;
+    width: 700px;
+    background-color: antiquewhite;
+    border: 4px inset;
+    padding: 20px;
+}
+
+.container .tartalom .mezok form .box{
+    width: 60%;
+    padding: 10px 10px;
+    font-size: 17px;
+    border: 2px solid black;
+    margin: 5px 0;
+}
+
+.container .tartalom .mezok form .regbutton{
+    display: inline-block;
+    margin-top: 10px;
+    background-color: black;
+    color:whitesmoke;
+    padding: 10px 35px;
+    font-size:20px;
+    cursor: pointer;
+}
+
+.container .tartalom .mezok form .regbutton:hover{
+    background-color: rgb(59, 59, 59);  
+}
+
+.container .tartalom .mezok form p{
+    font-size: 20px;
+    padding-top: 10px;
+}
+
