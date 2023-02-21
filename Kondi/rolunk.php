@@ -45,7 +45,7 @@
                      </li>
                      <form class="d-flex " style="margin-left: 200px;" role="signin">
 
-                         <button class="btn btn-outline-success text-black mt-3" id="signin" type="submit" style="margin-left: 60px; color:black; border-color:black;   ">Bejelentkezés</button>
+                         <a href="loginkondi.php"><button class="btn btn-outline-success text-black mt-3" id="signin" type="button" style="margin-left: 60px; color:black; border-color:black;   ">Bejelentkezés</button></a>
                      </form>
                  </ul>
              </div>
@@ -66,14 +66,16 @@
          </div>
      </div>
 
-     <div class="row my-lg-4" style="background-color: #F29900;">
+     <div class="row my-lg-4" style="background-color:#9B0000; height: 420px;">
 
 
-         <div class="col">
-             2
+         <div class="col text-light text-center my-lg-5" style="font-family:Century Gothic">
+             <h1>Klienseink</h1>
+             <h4>A képeken látható a változás ügyfeleinken, a különböző időszakos programjainknak köszönhetően.</h4>
          </div>
-         <div class="col ">
-             <div id="carouselExampleDark" class="carousel carousel-dark slide w-50 my-lg-4">
+
+         <div class="col ms-lg-5">
+             <div id="carouselExampleDark" class="carousel carousel-dark slide w-50 my-lg-4 ms-lg-5">
                  <div class="carousel-indicators">
                      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
                      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
@@ -81,24 +83,19 @@
                  </div>
                  <div class="carousel-inner">
                      <div class="carousel-item active" data-bs-interval="10000">
-                         <img src="../Pic/transform1.jpg" class="d-block w-100 h-100" alt="...">
+                         <img src="../Pic/transform1.jpg" class="d-block w-100" alt="...">
                          <div class="carousel-caption d-none d-md-block">
-                             <h5>First slide label</h5>
-                             <p>Some representative placeholder content for the first slide.</p>
+
                          </div>
                      </div>
                      <div class="carousel-item" data-bs-interval="2000">
-                         <img src="../Pic/transform2.jpg" class="d-block w-100 h-100" alt="...">
+                         <img src="../Pic/transform2.jpg" class="d-block w-100 " alt="...">
                          <div class="carousel-caption d-none d-md-block">
-                             <h5>Second slide label</h5>
-                             <p>Some representative placeholder content for the second slide.</p>
                          </div>
                      </div>
                      <div class="carousel-item">
-                         <img src="../Pic/transform3.jpg" class="d-block w-100 h-100" alt="...">
+                         <img src="../Pic/transform3.jpg" class="d-block w-100 " alt="...">
                          <div class="carousel-caption d-none d-md-block">
-                             <h5>Third slide label</h5>
-                             <p>Some representative placeholder content for the third slide.</p>
                          </div>
                      </div>
                  </div>

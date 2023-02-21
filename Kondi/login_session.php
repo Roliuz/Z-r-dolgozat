@@ -1,3 +1,17 @@
+<?php
+session_start();
+
+if (isset($_SESSION["user_id"])) {  //felhasználó név szerinti üdvözlése
+    $mysqli = require __DIR__ . "/registration_database.php";
+
+    $parancs = "SELECT * FROM felhasznalok WHERE felhasznalo_ID = {$_SESSION["user_id"]}";
+
+    $eredmeny = $mysqli->query($parancs);
+
+    $felhasznalo = $eredmeny->fetch_assoc();
+}
+?>
+
 <!doctype html>
 <html lang="hu">
 
@@ -40,6 +54,21 @@
         }
     </style>
 
+    <?php
+
+    if (isset($felhasznalo)) {
+
+        function function_alert($message)
+        {
+
+            echo "<script>alert('$message');</script>";
+        }
+
+        function_alert("Sikeres bejelentkezés! Üdvözöllek " . htmlspecialchars($felhasznalo["keresztnev"]));
+    }
+    ?>
+
+
     <nav class="navbar navbar-expand-lg  " style="background-color: transparent">
         <div class="container">
             <a class="navbar-brand fs-5  text-black mt-3" href="#">GymRoll</a>
@@ -66,7 +95,7 @@
                     </li>
                     <form class="d-flex " style="margin-left: 200px;" role="signin">
 
-                        <a href="loginkondi.php"><button class="btn btn-outline-success text-black mt-3" id="signin" type="button" style="margin-left: 60px; color:black; border-color:black;">Bejelentkezés</button></a>
+                        <a href="logout_session.php"><button class="btn btn-outline-success text-black mt-3" id="signin" type="button" style="margin-left: 60px; color:black; border-color:black;">Kijelentkezés</button></a>
                     </form>
                 </ul>
             </div>
