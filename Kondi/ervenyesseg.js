@@ -30,21 +30,21 @@ validation
             rule: "maxLength",
             value: 20
         },
-        {
-            validator: (value) => () => {
-                return fetch("email-ervenyesseg.php?email=" + encodeURIComponent(value))
-                    //az encodeURIComponent az értéket(value)
-                    // egy url kódolású sztringre kódolja 
-                    .then(function (response) {
-                        return response.json();
-                    })
-                    .then(function (json) {
-                        return json.available;
-                    });
-            },
+        // {
+        /**validator: (value) => () => {
+            return fetch("email-ervenyesseg.php?email=" + encodeURIComponent(value))
+                //az encodeURIComponent az értéket(value)
+                // egy url kódolású sztringre kódolja 
+                .then(function (response) {
+                    return response.json();
+                })
+                .then(function (json) {
+                    return json.available;
+                });
+        },
 
-            errorMessage: "Az email már foglalt."
-        }
+        errorMessage: "Az email r foglalt."**/
+        // }
     ])
     .addField("#BeviteliJelszo", [
 
