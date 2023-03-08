@@ -25,30 +25,33 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav fs-5" style="margin-left: 180px">
                     <li class="nav-item">
-                        <a class="nav-link active me-5 ms-3 mt-3 text-black " aria-current="page" href="kondifooldal.php">Főoldal</a>
+                        <a class="nav-link active me-5 ms-3 mt-3 text-black " aria-current="page" href="login_session.php">Főoldal</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link me-3  mt-3 text-black" href="rolunk.php">Rólunk</a>
+                        <a class="nav-link me-3  mt-3 text-black" href="rolunk_session.php">Rólunk</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link pe-5 ms-lg-3 mt-lg-3  text-black" style="width: 211px" href="kaloriakalk.php">Kalória-kalkulátor</a>
+                        <a class="nav-link pe-5 ms-lg-3 mt-lg-3  text-black" style="width: 211px" href="kaloriakalk_session.php">Kalória-kalkulátor</a>
                     </li>
 
                     <li class="nav-item">
-                        <a class="nav-link me-3 ms-2  mt-3 text-black" href="gyakorlatok.php">Gyakorlatok</a>
+                        <a class="nav-link me-3 ms-2  mt-3 text-black" href="gyakorlatok_session.php">Gyakorlatok</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link me-3 ms-3 mt-3 text-black" href="#">Edzőink</a>
                     </li>
-                    <form class="d-flex " style="margin-left: 200px;" role="signin">
 
-                        <a href="logout_session.php"><button class="btn btn-outline-secondary text-black mt-3" id="signin" type="button" style="margin-left: 60px; color:black; border-color:black;">Bejelentkezés</button></a>
+                    <li class="nav-item">
+                        <a class="nav-link  ms-3 mt-3 text-black" href="webshop_session.php">Webshop</a>
+                    </li>
+                    <form class="d-flex " style="margin-left: 100px;" role="signin">
+
+                        <a href="logout_session.php"><button class="btn btn-outline-success text-black mt-3" id="signin" type="button" style=" color:black; border-color:black;">Kijelentkezés</button></a>
                     </form>
                 </ul>
             </div>
         </div>
     </nav>
-
     <div class="bg-primary">
         <div class="container">
             <div class="row">

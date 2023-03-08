@@ -28,7 +28,7 @@ validation
         },
         {
             rule: "maxLength",
-            value: 20
+            value: 50
         },
         // {
         /**validator: (value) => () => {

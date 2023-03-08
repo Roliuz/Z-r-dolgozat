@@ -142,43 +142,7 @@
                  <h1 class="my-5" style="font-family: MS Gothic">Miért minket válassz?</h1>
              </div>
          </div>
-         <!--
-         <div class="row  fs-4" style="font-family: Segoe UI;">
-             <div class="col ">
-                 <div class="row">
-                     <div class="col"><img src="../Pic/premiumicon.png" alt="" class="img-fluid img-thumbnail" style="max-width: 60px; border:0mm;"></div>
-                     <div class="col">Prémium minőség</div>
-                 </div>
-             </div>
-             <div class="col m-4">
-                 <img src="../Pic/50+.png" alt="" class="img-fluid img-thumbnail" style="max-width: 60px; border:0mm;">
-                 Több mint 50 féle kondigép
-             </div>
 
-         </div>
-         <div class="row fs-4" style="font-family: Segoe UI;">
-             <div class="col m-4">
-                 Úszómedence és szauna üzemel
-             </div>
-             <div class="col m-4">
-                 Szakértelem felsőfokon
-             </div>
-             <div class="col ">
-
-             </div>
-         </div>
-         <div class="row fs-4" style="font-family: Segoe UI;">
-             <div class="col m-4">
-                 <img src="" alt="">
-                 8 féle különböző edzésforma
-             </div>
-             <div class="col m-4">
-                 Jó elhelyezkedés
-             </div>
-             <div class="col "></div>
-
-         </div>
-     </div>-->
 
          <div class="row">
              <div class="col">

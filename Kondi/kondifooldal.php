@@ -78,22 +78,19 @@
 
 
 
-    <div class="row">
-        <div class="col mt-lg-5">
-            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
-                <div class="carousel-indicators">
-                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <div class="col mt-lg-5">
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+            <div class="carousel-indicators">
 
-                </div>
-                <div class="carousel-inner">
-                    <div class="carousel-item active">
-                        <img src="../Pic/kondihatter.jpg" class="d-block w-100" alt="...">
-                        <div class="carousel-caption d-none d-md-block align-items-start" style="margin-bottom: 600px;">
-                            <h1 class="display-6 text-light fw-bold text-start text-top">Kerülj formába most!</h1> <br>
-                            <h3 class="text-light fs-6 mt-3 text-start">
-                                Professzionális edzőink a maximumot fogják kihozni belőled!
-                            </h3>
-                        </div>
+            </div>
+            <div class="carousel-inner align-items-start">
+                <div class="carousel-item active ">
+                    <img src="../Pic/kondihatter.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption align-top text-start ">
+                        <h1 class=" text-light fw-bold  d-block">Kerülj formába most!</h1> <br>
+                        <h3 class="text-light fs-6 mt-3">
+                            Professzionális edzőink a maximumot fogják kihozni belőled!
+                        </h3>
                     </div>
                 </div>
             </div>
@@ -104,10 +101,11 @@
 
 
 
+
     </div>
     <div class="row">
         <div class="col">
-            <div class="card" style="height: 120px;
+            <div class="card h-100" style="height: 120px;
                                     font-family:Comic Sans MS;">
                 <div class="card-body bg-success text-center text-light">
                     <i class="bi bi-geo-alt fs-1 "></i>
@@ -117,7 +115,7 @@
             </div>
         </div>
         <div class="col">
-            <div class="card" style="height: 120px;
+            <div class="card h-100" style="height: 120px;
                                     font-family:Comic Sans MS;">
                 <div class="card-body bg-primary text-center text-light">
                     <i class="fas fa-dumbbell fs-1 mt-2"></i>
@@ -127,7 +125,7 @@
             </div>
         </div>
         <div class="col">
-            <div class="card" style="height: 120px;
+            <div class="card h-100" style="height: 120px;
                                     font-family:Comic Sans MS;">
                 <div class="card-body bg-warning text-center text-light">
                     <i class="bi bi-journal-check fs-1"></i>
@@ -137,7 +135,7 @@
             </div>
         </div>
         <div class="col">
-            <div class="card" id="kartya" style="height: 120px;
+            <div class="card h-100" id="kartya" style="height: 120px;
                                     font-family:Comic Sans MS;">
                 <div class="card-body bg-info text-center text-light">
                     <i class="fas fa-swimming-pool fs-1 mt-2"></i>
@@ -150,27 +148,27 @@
     </div>
     <div class="container">
         <div class="row">
-            <div class="col">
-                <img src="../Pic/balsavtestepito.png" class="img-thumbnail text-center m-lg-5" style="border: none; width: 400px" alt="...">
+            <div class="col d-none d-md-block">
+                <img src="../Pic/balsavtestepito.png" class="img-thumbnail  text-center m-lg-5" style="border: none; width: 400px" alt="...">
             </div>
             <div class="col">
                 <h3 class="fs-3 mt-lg-5 mb-lg-3" style="font-family: Bahnschrift SemiBold;">Többet tudsz kihozni magadból mint gondolnád!</h3>
                 <h4>Hogyan érheted el az álomformád?</h4>
                 <div class="row">
-                    <div class="card text-bg-light mt-lg-4" style="max-width: 30rem;">
+                    <div class="card text-bg-light mt-lg-4 m-3" style="max-width: 30rem;">
                         <div class="card-body">
                             <h1 class="card-title pricing-card-title text-muted">1<small class="text-dark fw-bold  fs-3 ms-lg-2 "> Légy türelmes!</small></h1>
                             <p>Minden eredmény idővel lesz látható, ne aggódj, ha az első hetekben, hónapokban, nem fogsz látni eredményt, csak csináld amit edzőink terveztek neked. Emlékezz, a jó munkához idő kell!</p>
                         </div>
                     </div>
-                    <div class="card text-bg-light mt-lg-3" style="max-width: 30rem;">
+                    <div class="card text-bg-light mt-lg-3 m-3" style="max-width: 30rem;">
                         <div class="card-body">
                             <h1 class="card-title pricing-card-title text-muted">2<small class="text-dark fw-bold  fs-3 ms-lg-2 ">
                                     Eddz keményen!</small></h1>
                             <p>Edzés közben, mindig gondolj a célodra. Legyen az versenyfelkészülés, legyen az modellkedés, vagy csak szimplán jobban akarsz kinézni és változtatni szeretnél az életmódodon, gondolj a célra, és csak az lebegjen a szemed előtt!</p>
                         </div>
                     </div>
-                    <div class="card text-bg-light my-lg-3" style="max-width: 30rem;">
+                    <div class="card text-bg-light my-lg-3 m-3" style="max-width: 30rem;">
                         <div class="card-body">
                             <h1 class="card-title pricing-card-title text-muted">3<small class="text-dark fw-bold  fs-3 ms-lg-2 ">
                                     Eddz keményen!</small></h1>
@@ -191,15 +189,15 @@
     <div class="bg-dark">
         <div class="container">
             <div class="row">
-                <div class="col m-lg-1 mt-lg-2" id="col">
-                    <div class="card bg-image hover-overlay ripple shadow-1-strong rounded-4" id="card" style="width: 18rem;    ">
+                <div class="col m-1 mt-2" id="col">
+                    <div class="card bg-image hover-overlay ripple shadow-1-strong rounded-4 " id="card" style="width: 18rem;    ">
                         <div class="card-body text-center">
                             <img src="../Pic/icon1.png" style="width: 13rem;" class="me-lg-1" alt="">
                             <h5 class=" card-title">SÚLYZÓS EDZÉSEK</h5>
                         </div>
                     </div>
                 </div>
-                <div class="col m-lg-1 mt-lg-2" id="col">
+                <div class="col m-1 mt-2" id="col">
                     <div class="card bg-image hover-overlay ripple shadow-1-strong rounded-4" id="card" style="width: 18rem;">
                         <div class="card-body text-center">
                             <img src="../Pic/icon2.png" style="width: 13rem;" class="me-lg-1" alt="">
@@ -207,7 +205,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col m-lg-1 mt-lg-2" id="col">
+                <div class="col m-1 mt-2" id="col">
                     <div class="card bg-image hover-overlay ripple shadow-1-strong rounded-4" id="card" style="width: 18rem;">
                         <div class="card-body text-center">
                             <img src="../Pic/icon3.png" style="width: 13rem;" class="me-lg-1" alt="">
@@ -215,7 +213,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col m-lg-1 mt-lg-2" id="col">
+                <div class="col m-1 mt-2" id="col">
                     <div class="card bg-image hover-overlay ripple shadow-1-strong rounded-4" id="card" style="width: 18rem;">
                         <div class="card-body text-center">
                             <img src="../Pic/icon4.png" style="width: 13rem;" class="me-lg-1" alt="">
@@ -225,7 +223,7 @@
                 </div>
             </div>
             <div class="row" id="row">
-                <div class="col m-lg-1 my-lg-4" id="col">
+                <div class="col m-1 my-4" id="col">
                     <div class="card bg-image hover-overlay ripple shadow-1-strong rounded-4" id="card" style="width: 18rem;    ">
                         <div class="card-body text-center">
                             <img src="../Pic/icon6.png" style="width: 13rem;" class="me-lg-1" alt="">
@@ -233,7 +231,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col m-lg-1 my-lg-4" id="col">
+                <div class="col m-1 my-4" id="col">
                     <div class="card bg-image hover-overlay ripple shadow-1-strong rounded-4" id="card" style="width: 18rem;">
                         <div class="card-body text-center">
                             <img src="../Pic/icon7.png" style="width: 13rem;" class="me-lg-1" alt="">
@@ -241,7 +239,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col m-lg-1 my-lg-4" id="col">
+                <div class="col m-1 my-4" id="col">
                     <div class="card bg-image hover-overlay ripple shadow-1-strong rounded-4" id="card" style="width: 18rem;">
                         <div class="card-body text-center">
                             <img src="../Pic/icon8.png" style="width: 13rem;" class="me-lg-1" alt="">
