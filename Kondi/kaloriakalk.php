@@ -37,7 +37,7 @@
         }
     </style>
 
-    <nav class="navbar navbar-expand-lg mb-5 " style="background-color: transparent">
+    <nav class="navbar navbar-expand-lg mb-4 " style="background-color: transparent">
         <div class="container">
             <a class="navbar-brand fs-5  text-black mt-3" href="#">GymRoll</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -223,7 +223,7 @@
                     </div>
                     <hr>
                     <div class="row m-lg-4">
-                        <h5 class="fs-3">Harris-Benedict képlet</h5>
+                        <h5 class="fs-3">Katch-McArdle képlet</h5>
                         <p class="my-2"> <b>Férfi, nő:</b><br>
                             BMR = 370 + 21.6(1 - F)W
                         </p>

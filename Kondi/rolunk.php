@@ -57,9 +57,9 @@
 
      <div class="container">
          <div class="row">
-             <div class="col mt-lg-3">
+             <div class="col mt-lg-3 my-sm-3">
                  <img src="../Pic/rolunkfoto1.png" alt="" style="max-width: 15rem;transform: scaleX(-1);" class="me-lg-3 ms-lg-3 img-fluid">
-                 <img src="../Pic/rolunkfoto2.png" alt="" style="max-width: 15rem;" class="mt-lg-5 img-fluid">
+                 <img src="../Pic/rolunkfoto2.png" alt="" style="max-width: 15rem;" class="mt-lg-5 img-fluid ">
              </div>
              <div class="col my-lg-5 ms-lg-5">
                  <h3> Üdvözöllek a GymRoll-ban.</h3>

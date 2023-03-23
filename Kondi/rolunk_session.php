@@ -42,10 +42,8 @@
 
     <?php
 
-    if (isset($felhasznalo)) {
+    include("session_check.php");
 
-        session_start();
-    }
     ?>
 
 
@@ -74,7 +72,7 @@
                         <a class="nav-link me-3 ms-3 mt-3 text-black" href="edzoink_session.php">Edzőink</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link  ms-3 mt-3 text-black" href="webshop_session.php">Webshop</a>
+                        <a class="nav-link  ms-3 mt-3 text-black" href="webshop/webshop_session.php">Webshop</a>
                     </li>
                     <form class="d-flex " style="margin-left: 100px;" role="signin">
 

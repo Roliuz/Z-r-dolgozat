@@ -27,7 +27,7 @@
         }
     </style>
 
-    <nav class="navbar navbar-expand-lg mb-5 " style="background-color: transparent">
+    <nav class="navbar navbar-expand-lg mb-4     " style="background-color: transparent">
         <div class="container">
             <a class="navbar-brand fs-5  text-black mt-3" href="#">GymRoll</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">

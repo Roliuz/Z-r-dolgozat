@@ -87,7 +87,7 @@
                         <a class="nav-link me-3 ms-3 mt-3 text-black" href="edzoink_session.php">Edzőink</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link  ms-3 mt-3 text-black" href="webshop_session.php">Webshop</a>
+                        <a class="nav-link  ms-3 mt-3 text-black" href="webshop/webshop_session.php">Webshop</a>
                     </li>
                     <form class="d-flex " style="margin-left: 100px;" role="signin">
 
@@ -114,63 +114,69 @@
     <div class="container">
         <div class="row">
             <div class="card border border-0 text-white mt-4 mb-3">
-
-                <div class="kartyahatter"><img src="../Pic/mellizom.png" class="card-img img-fluid " alt="..."></div>
-                <div class="card-img-overlay">
-                    <h5 class="card-title text-center fs-1">Mellizom</h5>
-                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                </div>
+                <a href="mellizom.php">
+                    <div class="kartyahatter"><img src="../Pic/mellizom.png" class="card-img img-fluid " alt="..."></div>
+                    <div class="card-img-overlay">
+                        <h5 class="card-title text-center fs-1">Mellizom</h5>
+                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                    </div>
+                </a>
             </div>
         </div>
         <div class="row">
             <div class="card border border-0 text-white mt-4 mb-3">
-
-                <div class="kartyahatter"><img src="../Pic/vallizom.png" class="card-img img-fluid " alt="..."></div>
-                <div class="card-img-overlay">
-                    <h5 class="card-title text-center fs-1">Váll izom</h5>
-                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                </div>
+                <a href="vallizom.php">
+                    <div class="kartyahatter"><img src="../Pic/vallizom.png" class="card-img img-fluid " alt="..."></div>
+                    <div class="card-img-overlay">
+                        <h5 class="card-title text-center fs-1">Váll izom</h5>
+                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                    </div>
+                </a>
             </div>
         </div>
         <div class="row">
             <div class="card border border-0 text-white mt-4 mb-3">
-
-                <div class="kartyahatter"><img src="../Pic/hatizom.png" class="card-img img-fluid " alt="..."></div>
-                <div class="card-img-overlay">
-                    <h5 class="card-title text-center fs-1">Hát izom</h5>
-                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                </div>
+                <a href="hatizom.php">
+                    <div class="kartyahatter"><img src="../Pic/hatizom.png" class="card-img img-fluid " alt="..."></div>
+                    <div class="card-img-overlay">
+                        <h5 class="card-title text-center fs-1">Hát izom</h5>
+                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                    </div>
+                </a>
             </div>
         </div>
         <div class="row">
             <div class="card border border-0 text-white mt-4 mb-3">
-
-                <div class="kartyahatter"><img src="../Pic/bicepsz.png" class="card-img img-fluid " alt="..."></div>
-                <div class="card-img-overlay">
-                    <h5 class="card-title text-center fs-1">Bicepsz</h5>
-                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                </div>
+                <a href="bicepsz.php">
+                    <div class="kartyahatter"><img src="../Pic/bicepsz.png" class="card-img img-fluid " alt="..."></div>
+                    <div class="card-img-overlay">
+                        <h5 class="card-title text-center fs-1">Bicepsz</h5>
+                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                    </div>
+                </a>
             </div>
         </div>
         <div class="row">
             <div class="card border border-0 text-white mt-4 mb-3">
-
-                <div class="kartyahatter"><img src="../Pic/tricepsz.png" class="card-img img-fluid " alt="..."></div>
-                <div class="card-img-overlay">
-                    <h5 class="card-title text-center fs-1">Tricepsz</h5>
-                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                </div>
+                <a href="tricepsz.php">
+                    <div class="kartyahatter"><img src="../Pic/tricepsz.png" class="card-img img-fluid " alt="..."></div>
+                    <div class="card-img-overlay">
+                        <h5 class="card-title text-center fs-1">Tricepsz</h5>
+                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                    </div>
+                </a>
             </div>
         </div>
 
         <div class="row">
             <div class="card border border-0 text-white mt-4 mb-3">
-
-                <div class="kartyahatter"><img src="../Pic/combizom.png" class="card-img img-fluid " alt="..."></div>
-                <div class="card-img-overlay">
-                    <h5 class="card-title text-center fs-1">Láb izom</h5>
-                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                </div>
+                <a href="labizom.php">
+                    <div class="kartyahatter"><img src="../Pic/combizom.png" class="card-img img-fluid " alt="..."></div>
+                    <div class="card-img-overlay">
+                        <h5 class="card-title text-center fs-1">Láb izom</h5>
+                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                    </div>
+                </a>
             </div>
         </div>
         <br>

@@ -46,5 +46,5 @@ if ($stmt->execute()) {
     exit;
 } else {
 
-    die("Hiba: " . $mysqli->error . $mysqli->errno); //hiba nem írja ki megfelelően (megbeszélni)
+    die("Hiba: " . $mysqli->error . $mysqli->errno);
 }

@@ -42,7 +42,7 @@
                     </li>
 
                     <li class="nav-item">
-                        <a class="nav-link  ms-3 mt-3 text-black" href="webshop_session.php">Webshop</a>
+                        <a class="nav-link  ms-3 mt-3 text-black" href="webshop/webshop_session.php">Webshop</a>
                     </li>
                     <form class="d-flex " style="margin-left: 100px;" role="signin">
 
