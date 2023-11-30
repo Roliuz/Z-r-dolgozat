@@ -1,4 +1,12 @@
 <?php
+
+if (isset($_SESSION["user_id"])) {
+} else {
+    // felhasználó nincs bejelentkezve, átirányítás a bejelentkező oldalra
+    header("Location: ../loginkondi.php");
+    exit;
+} ?>
+<?php
 //ezt most a termékek fülön érhetjük el
 
 $termekek_szama_oldal = 6; //termekek száma egy oldalon
@@ -68,14 +76,14 @@ $termekek_szama = $pdo->query('SELECT * FROM termekek')->rowCount(); //a rowCoun
                                     color: black;
                                 }
                             </style>
-                            <a href="index.php?oldal=termek&id=<?= $termek['id'] ?>"> <!-- adatbázisból meghívom a termékek nevét, leírás, árát, képét, stb.. -->
+                            <a href="index.php?oldal=termek&id=<?= $termek['termek_id'] ?>"> <!-- adatbázisból meghívom a termékek nevét, leírás, árát, képét, stb.. -->
                                 <div class="card h-100 border-0 " style="width: 15rem; ">
-                                    <img src="../../Pic/<?= $termek['img'] ?>" class="card-img-top" alt="<?= $termek['nev'] ?>">
+                                    <img src="../../Pic/<?= $termek['kep'] ?>" class="card-img-top" alt="<?= $termek['termek_nev'] ?>">
                                     <div class="card-body d-flex flex-column">
 
-                                        <h5 class="card-title"><?= $termek['nev'] ?></h5>
+                                        <h5 class="card-title"><?= $termek['termek_nev'] ?></h5>
                                         <p class="card-text"><?= $termek['ar'] ?> Ft</p>
-                                        <a href="#" class="btn btn-success mt-auto">Részletek</a>
+                                        <a href="index.php?oldal=termek&id=<?= $termek['termek_id'] ?>" class="btn btn-success mt-auto">Részletek</a>
                                     </div>
                                 </div>
                             </a>

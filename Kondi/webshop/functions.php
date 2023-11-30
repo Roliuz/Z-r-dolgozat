@@ -110,10 +110,3 @@ function lablec()
     </html>
 EOT;
 }
-
-function megrendeles()
-{
-    echo <<<EOT
-
-    EOT;
-}

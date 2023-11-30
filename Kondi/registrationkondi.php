@@ -70,24 +70,24 @@
         <form action="registration_conf.php" method="post" id="regisztracio" novalidate>
             <h3 class="mb-4 fw-normal">Legyél még ma tagja a GymRoll közösségnek!</h3>
             <h4>Regisztrálj és tedd meg az első lépést az álomformád eléréshez!</h4>
-            <div class="form-floating">
-                <input type="text" class="form-control" placeholder="Nagy" name="vnev" id="BeviteliVnev" required>
+            <div class="form-floating my-2">
+                <input type="text" class="form-control" placeholder="Nagy" name="vnev" id="BeviteliVnev">
                 <label for="BeviteliVnev">Vezetéknév</label>
             </div>
-            <div class="form-floating">
-                <input type="text" class="form-control" placeholder="Sándor" name="knev" id="BeviteliKnev" required>
+            <div class="form-floating my-2">
+                <input type="text" class="form-control" placeholder="Sándor" name="knev" id="BeviteliKnev">
                 <label for="BeviteliKnev">Keresztnév</label>
             </div>
-            <div class="form-floating">
-                <input type="email" class="form-control" placeholder="valaki@valami.com" name="email" id="BeviteliEmail" required>
+            <div class="form-floating my-2">
+                <input type="email" class="form-control" placeholder="valaki@valami.com" name="email" id="BeviteliEmail">
                 <label for="BeviteliEmail">Email-cím</label>
             </div>
-            <div class="form-floating">
-                <input type="password" class="form-control" id="BeviteliJelszo" name="password" placeholder="Jelszó" required>
+            <div class="form-floating my-2">
+                <input type="password" class="form-control" id="BeviteliJelszo" name="password" placeholder="Jelszó">
                 <label for="BeviteliJelszo">Jelszó</label>
             </div>
-            <div class="form-floating">
-                <input type="password" class="form-control" id="UjraJelszo" name="password_verification" placeholder="Jelszó újra" required>
+            <div class="form-floating my-2">
+                <input type="password" class="form-control" id="UjraJelszo" name="password_verification" placeholder="Jelszó újra">
                 <label for="UjraJelszo">Kérlek írd be újra a jelszavad</label>
             </div>
 

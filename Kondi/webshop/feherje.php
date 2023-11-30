@@ -1,3 +1,11 @@
+<?php
+
+if (isset($_SESSION["user_id"])) {
+} else {
+    // felhasználó nincs bejelentkezve, átirányítás a bejelentkező oldalra
+    header("Location: ../loginkondi.php");
+    exit;
+} ?>
 <?= fejlec('feherje') ?>
 <?php
 $feherje = $pdo->prepare("SELECT * FROM termekek WHERE termek_tipus = 'feherje'");
@@ -14,11 +22,10 @@ $termekek_szama = $pdo->query("SELECT * FROM termekek WHERE termek_tipus = 'fehe
             <ul class="list-group list-group-flush">
 
 
-
-                <li class="list-group-item"><a href="index.php?oldal=feherje">Fehérjék</a></li>
-                <li class="list-group-item"><a href="index.php?oldal=kreatin">Kreatinok</a></li>
-                <li class="list-group-item"><a href="index.php?oldal=shaker">Shakerek</a></li>
-                <li class="list-group-item"><a href="index.php?oldal=edzeselotti">Edzés előttik</a></li>
+                <li class="list-group-item my-3"><a href="index.php?oldal=feherje">Fehérjék</a></li>
+                <li class="list-group-item my-3"><a href="index.php?oldal=kreatin">Kreatinok</a></li>
+                <li class="list-group-item my-3"><a href="index.php?oldal=shaker">Shakerek</a></li>
+                <li class="list-group-item my-3"><a href="index.php?oldal=edzeselotti">Edzés előttik</a></li>
 
 
             </ul>
@@ -49,7 +56,7 @@ $termekek_szama = $pdo->query("SELECT * FROM termekek WHERE termek_tipus = 'fehe
 
                                         <h5 class="card-title"><?= $feher['nev'] ?></h5>
                                         <p class="card-text"><?= $feher['ar'] ?> Ft</p>
-                                        <a href="#" class="btn btn-success mt-auto">Részletek</a>
+                                        <a href="index.php?oldal=termek&id=<?= $termek['id'] ?>" class="btn btn-success mt-auto">Részletek</a>
                                     </div>
                                 </div>
                             </a>

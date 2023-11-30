@@ -1,4 +1,12 @@
 <?php
+
+if (isset($_SESSION["user_id"])) {
+} else {
+    // felhasználó nincs bejelentkezve, átirányítás a bejelentkező oldalra
+    header("Location: ../loginkondi.php");
+    exit;
+} ?>
+<?php
 $lekerdez = $pdo->prepare('SELECT * FROM termekek ORDER BY feltoltes_datuma DESC LIMIT 4'); //kiírja a legutóbbi négy feltöltött terméket
 //prepare metódus segítségével "előkészítem" a későbbi felhasználásra, illetve véd az SQL injection-től
 $lekerdez->execute();
@@ -41,7 +49,7 @@ $nemreg_termekek = $lekerdez->fetchAll(PDO::FETCH_ASSOC); // egy asszociatív t�
 
                             <h5 class="card-title"><?= $termek['nev'] ?></h5>
                             <p class="card-text"><?= $termek['ar'] ?> Ft</p>
-                            <a href="#" class="btn btn-success mt-auto">Részletek</a>
+                            <a href="index.php?oldal=termek&id=<?= $termek['id'] ?>" class="btn btn-success mt-auto">Részletek</a>
                         </div>
                     </div>
                 </a>

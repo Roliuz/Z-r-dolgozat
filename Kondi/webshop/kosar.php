@@ -1,4 +1,12 @@
 <?php
+
+if (isset($_SESSION["user_id"])) {
+} else {
+    // felhasználó nincs bejelentkezve, átirányítás a bejelentkező oldalra
+    header("Location: ../loginkondi.php");
+    exit;
+} ?>
+<?php
 // ha a felhasználó rákattint a kosárba helyezésre, akkor ez aktiválódik
 if (isset($_POST['termek_id'], $_POST['keszlet']) && is_numeric($_POST['termek_id']) && is_numeric($_POST['keszlet'])) {
     //példányosítom a termékek id-át, illetve készletét integerbe

@@ -1,5 +1,13 @@
-<?=
-fejlec('Megrendelés') ?>
+<?php
+
+if (isset($_SESSION["user_id"])) {
+} else {
+    // felhasználó nincs bejelentkezve, átirányítás a bejelentkező oldalra
+    header("Location: ../loginkondi.php");
+    exit;
+}
+fejlec("Megrendelés")
+?>
 
 <div class="container w-50 border border-3 p-5">
     <h3 class="fs-3 text-center mb-3"> Szállítási/számlázási információk</h3>

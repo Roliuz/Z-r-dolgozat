@@ -7,7 +7,7 @@ validation
         },
         {
             rule: "maxLength",
-            value: 30
+            value: 50
         }
     ])
     .addField("#BeviteliKnev", [
@@ -16,7 +16,7 @@ validation
         },
         {
             rule: "maxLength",
-            value: 30
+            value: 50
         }
     ])
     .addField("#BeviteliEmail", [
@@ -30,21 +30,7 @@ validation
             rule: "maxLength",
             value: 50
         },
-        // {
-        /**validator: (value) => () => {
-            return fetch("email-ervenyesseg.php?email=" + encodeURIComponent(value))
-                //az encodeURIComponent az értéket(value)
-                // egy url kódolású sztringre kódolja 
-                .then(function (response) {
-                    return response.json();
-                })
-                .then(function (json) {
-                    return json.available;
-                });
-        },
 
-        errorMessage: "Az email r foglalt."**/
-        // }
     ])
     .addField("#BeviteliJelszo", [
 

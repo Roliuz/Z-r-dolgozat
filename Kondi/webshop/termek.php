@@ -1,5 +1,13 @@
 <?php
 
+if (isset($_SESSION["user_id"])) {
+} else {
+    // felhasználó nincs bejelentkezve, átirányítás a bejelentkező oldalra
+    header("Location: ../loginkondi.php");
+    exit;
+} ?>
+<?php
+
 if (isset($_GET['id'])) {
     $lekerdez = $pdo->prepare('SELECT * FROM termekek WHERE id = ?');
     $lekerdez->execute([$_GET['id']]);
